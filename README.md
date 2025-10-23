@@ -2,113 +2,29 @@
 
 # Date: 13/10/2025
 # Register no.: 212222060249
-# Aim: To develop a prompt-based application using ChatGPT - To demonstrate how to create a prompt-based application to organize daily tasks, showing the progression from simple to more advanced prompt designs and their corresponding outputs.
+# Aim: 
+To develop a prompt-based application using Lovable AI - To demonstrate how to create a prompt-based application to organize daily tasks, showing the progression from simple to more advanced prompt designs and their corresponding outputs.
 
 ## AI Tools Required: 
-ChatGPT (Large Language Model)
-Any text-based interface (Command Line / Web App)
-Optional: Google Calendar or task integration API
+Building a sophisticated prompt-based AI assistant like Asha involves several interconnected AI technologies, primarily from the field of Natural Language Processing (NLP). Here are the essential tools and components:
 
 
 # Explanation: 
-Prompt:
-"Design a personal productivity assistant that can help manage daily tasks, schedule reminders, suggest wellness tips, and answer general queries. The assistant should interact using natural language and be adaptable to the user’s changing preferences over time."
+**Prompt:** 
+Design a personal productivity assistant that can help manage daily tasks, schedule reminders, suggest wellness tips, and answer general queries. The assistant should interact using natural language and be adaptable to the user’s changing preferences over time.
 
-Procedure:
-1. Define the core requirements of a personal productivity assistant.
-2. Identify and construct appropriate prompts for each task using an LLM (e.g., ChatGPT).
-3. Simulate natural user interaction through a simple interface or command-line system.
-4. Collect feedback or inputs from users and adapt responses accordingly.
-5. (Optional) Integrate basic memory to simulate preference adaptation.
-EXPECTED OUTPUT: - (attached the drive link)
-Output (Example Response by LLM):
-Personal Productivity Assistant Features:
-1. Daily Task Manager:
-o Accept tasks via natural language (e.g., "Remind me to call mom at 6 PM").
-o Organize tasks by priority and deadline.
-o Provide daily summaries and pending items.
-2. Smart Scheduler:
-o Schedule events and set reminders using contextual understanding.
-o Notify user of overlapping appointments or free time slots.
-3. Wellness Tips Generator:
-o Suggest daily wellness advice (hydration, exercise, screen-time breaks).
-o Adapt suggestions based on past user preferences and responses.
+## Procedure for Designing a Prompt-Based Personal Productivity Assistant
+
+1.  **Define Requirements:** Establish Asha's core features (Task Manager, Scheduler, Wellness, Queries), user profile (preferences), tone, and interaction rules.
+2.  **Construct LLM Prompts:** Create initial role-setting prompts for Asha's persona, then task-specific action prompts to guide the LLM's understanding and response generation.
+3.  **Simulate Interaction:** Implement a system to send user input to the LLM (with prompts) and display its responses, iteratively testing with varied complexity of user queries.
+4.  **Refine Responses:** Analyze LLM outputs against requirements for accuracy and tone, then adjust internal prompts to improve performance.
+5.  **Evaluate Performance Metrics:** Define and track key metrics such as intent recognition accuracy, entity extraction precision, and user satisfaction (e.g., via surveys or explicit feedback).
+6.  **Iterative Development & Deployment:** Continuously cycle through steps 2-5, refining the prompt structure and potentially fine-tuning the underlying LLM, leading to deployment upon meeting performance benchmarks.
+7.  **Integrate Memory (Optional):** Store user preferences and interaction history to dynamically inform future LLM prompts for personalized responses.
 
 ## Prompt:
-
-“Design a personal productivity assistant that can help manage daily tasks, schedule reminders, suggest wellness tips, and answer general queries. The assistant should interact using natural language and be adaptable to the user’s changing preferences over time.”
-
-## Procedure:
-
-Define Core Requirements:
-Identify essential features like task management, scheduling, wellness suggestions, and adaptability.
-
-## Construct Prompts for Each Task:
-Create separate prompts for adding tasks, scheduling reminders, fetching daily summaries, and suggesting wellness tips.
-## Example:
-
-“Add a reminder to submit the report by 6 PM.”
-
-“Give me today’s pending tasks and wellness advice.”
-
-## Implement User Interaction:
-Simulate conversation flow using ChatGPT where the user enters natural commands and receives intelligent responses.
-
-## Iterate and Adapt:
-Test prompts for clarity and accuracy. Modify them to improve naturalness and contextual understanding.
-
-## Add Memory Simulation:
-Include a basic mechanism to remember user preferences (e.g., “I prefer reminders in the morning”).
-
-## Prompt-Based Application: Smart Life Organizer
-## Introduction:
-
-Modern life involves juggling academics, personal goals, and self-care. People often forget small yet important tasks such as staying hydrated, taking breaks, or revising lessons.
-The Smart Life Organizer, a prompt-based AI assistant, bridges this gap by helping users plan, prioritize, and balance daily routines using conversational AI.
-
-## What is a Prompt-Based Application?
-
-A prompt-based application operates through natural-language interaction.
-The user types a prompt, and the AI interprets it intelligently to perform the required function.
-
-## Example:
-
-Input: “Remind me to attend the project meeting at 3 PM.”
-
-Output: “Got it! I’ll remind you 10 minutes before 3 PM.”
-
-This makes it an ideal tool for students, professionals, and individuals aiming to organize tasks efficiently while receiving intelligent suggestions.
-
-## Example AI Prompt:
-
-“I have a class at 9 AM, a lab submission at 2 PM, and a seminar tomorrow. Can you organize my schedule for today with reminders and short breaks?”
-
-## Expected Response:
-
-“Here’s your optimized schedule for today:
-
-9:00–10:00 → Class
-
-10:00–10:15 → Break
-
-10:15–12:30 → Study for seminar
-
-12:30–1:30 → Lunch
-
-1:30–2:00 → Prepare lab file
-
-2:00–3:00 → Submit lab report
-
-3:00–3:30 → Relax or take a walk”
-
-## Key Features:
-## Daily Task Manager
-
-Add and manage tasks using natural language.
-
-Categorize tasks by priority and deadline.
-
-Provide summaries and track completion status.
+Create a personalized daily schedule for me, Soundariya, that I can follow every day. I’m a student who wants to balance study time, project work, exercise, meals, and relaxation. Include time for morning routine, focused study blocks, short breaks, meals, evening relaxation, and sufficient sleep. Make it productive but not overwhelming — something realistic to follow daily.
 
 ## Smart Scheduler
 
@@ -118,6 +34,87 @@ Detect conflicting or overlapping events.
 
 Suggest free slots for new activities.
 
+<img width="1159" height="676" alt="image" src="https://github.com/user-attachments/assets/d913372d-4c3b-4bd7-8135-3346b4fb40da" />
+<img width="1082" height="399" alt="image" src="https://github.com/user-attachments/assets/c71cbda8-379f-4f79-a037-8674926d4470" />
+
+
+## Daily Task Manager
+
+Add and manage tasks using natural language.
+
+Categorize tasks by priority and deadline.
+
+Provide summaries and track completion status.
+
+## Daily Task Manager Design
+## 1. Aim
+
+To create a Daily Task Manager that allows a user to:
+
+Add and manage tasks using natural language.
+
+Categorize tasks by priority, deadline, and type.
+
+Track completion status and generate summaries.
+
+Support a productive, organized, and balanced daily schedule.
+
+## 2. Features
+Feature	Description
+Task Creation	Add tasks by typing natural language (e.g., “Finish ECE assignment by 5 PM, high priority”).
+Task Categorization	Categorize tasks into priority levels (High, Medium, Low) and types (Study, Work, Personal).
+Deadlines / Scheduling	Assign due dates and times to tasks; optionally integrate with a daily timetable.
+Completion Tracking	Mark tasks as complete; automatically track progress and generate summaries.
+Reminders / Notifications	Optional reminders for tasks with deadlines.
+Daily / Weekly Summary	Generate summaries of completed, pending, and upcoming tasks.
+Search & Filter	Filter tasks by priority, category, or deadline for quick management.
+## 3. Workflow / How It Works
+
+Input Task: User types a task in natural language.
+
+Example: “Add ‘Study SQL for 1 hour’ tomorrow at 7 PM, high priority.”
+
+Task Parsing: The system interprets the input:
+
+Action: Add Task
+
+Task Name: Study SQL
+
+Time / Deadline: Tomorrow at 7 PM
+
+Priority: High
+
+Category: Study
+
+Task Storage: The task is stored in a database or list with metadata.
+
+Task Display: Tasks are displayed in a table or calendar view, sorted by priority or deadline.
+
+Completion & Updates: User marks tasks as complete or edits them.
+
+Summary Generation: At the end of the day, the system generates a daily report:
+
+Completed tasks
+
+Pending tasks
+
+Upcoming deadlines
+
+Total time spent per category
+
+## 4. Example Interaction (Prompt-based)
+Adding Tasks
+
+User:
+
+“Add ‘Finish ECE assignment’ by today at 5 PM, high priority.”
+
+System (Asha-like response):
+
+“Task ‘Finish ECE assignment’ has been added with high priority, due today at 5 PM.”
+
+
+
 ## Wellness Companion
 
 Share personalized wellness tips (hydration, posture, meditation).
@@ -126,69 +123,53 @@ Suggest screen-time breaks or stretching exercises.
 
 Adapt tips based on user behavior.
 
+<img width="979" height="681" alt="image" src="https://github.com/user-attachments/assets/dc269fa5-60a2-4169-8ac8-56d13a57bfdc" />
+
+
 ## General Query Responder
 
-Answer academic or general queries instantly.
+**User Input (Soundariya):** "Tell me about the basics of front-end web development."
 
-Example: “Explain Newton’s 3rd law” or “What are today’s important news headlines?”
+**Asha’s Interpretation:**
+*   **Action:** Answer Academic/General Query
+*   **Query Topic:** Front-end web development basics (highly relevant to Soundariya's IT interests!)
 
-## Real-Life Applications:
-## For Students
+**Asha’s Output:**
+"Oh, that's a brilliant question, Soundariya, especially with your HTML & CSS practice! Front-end web development is all about creating the part of a website that users actually see and interact with.
 
-Helps organize study schedules, assignment deadlines, and relaxation intervals.
+The three main pillars are:
+1.  **HTML (HyperText Markup Language):** This is the **structure** of a webpage, like the skeleton. It defines headings, paragraphs, images, links, etc.
+2.  **CSS (Cascading Style Sheets):** This is the **styling** of a webpage, making it look pretty! It controls colors, fonts, layout, and responsiveness for different devices.
+3.  **JavaScript:** This adds **interactivity** to a webpage. Think dynamic content, animations, form validations, and more complex user experiences.
 
-## For Professionals
 
-Balances work meetings, emails, and rest breaks to prevent burnout.
-
-## For Homemakers
-
-Assists in managing household chores, grocery lists, and family reminders.
-
-## For Health Enthusiasts
-
-Tracks daily wellness habits and offers personalized motivation messages.
-
-## Example Output (Simulated Response by ChatGPT):
-
-Assistant Response:
-“Hello! I’ve set your reminders and optimized your schedule for today.
-You have 3 tasks: Finish project notes, attend class, and submit lab report.
-I’ll remind you 10 minutes before each task.
-Wellness Tip: Drink 2L of water today and take a 5-minute stretch break every 2 hours.”
-
-## Future Enhancements:
-
-Integration with Google Calendar and notification systems.
-
-Personalized wellness tracking using health data.
-
-Voice-based interaction for accessibility.
-
-Smart analytics to track task completion and productivity trends.
-
-## Challenges & Considerations:
-
-Data Privacy: Secure handling of personal schedule data.
-
-Over-Reliance: Ensuring users maintain self-discipline alongside AI support.
-
-Personalization Limits: Requires tuning to adapt perfectly to diverse users.
 
 ## Outcome:
 
-The Smart Life Organizer demonstrates how prompt-based AI can be harnessed to build a personal productivity system. It improves organization, balance, and creativity, offering an adaptable digital companion for everyday management.
+A personalized daily schedule was designed for Soundariya, balancing college hours, self-study, skill development, project work, and personal care.
+
+A Daily Task Manager framework was created to allow task addition, categorization by priority and deadline, and tracking of completion using natural language input.
+
+A Wellness Companion module was developed to provide personalized wellness tips, hydration reminders, posture checks, meditation prompts, and screen-time breaks, adapted to daily activities.
+
+A General Query Responder module was designed to provide instant academic explanations, technical guidance, and general knowledge or news updates, supporting real-time learning.
 
 ## Conclusion:
+The integrated system demonstrates that prompt-based applications can be effectively used to organize daily tasks, manage time, and maintain wellness for students.
 
-This experiment illustrates how Large Language Models like ChatGPT can be utilized to build prompt-based applications that blend efficiency and personalization.
-By understanding prompt design and response optimization, students learn how to engineer intelligent systems capable of assisting users in real-world scenarios.
+By combining task management, personalized schedules, wellness guidance, and query resolution, the system provides a comprehensive assistant tailored to Soundariya’s academic and personal needs.
+
+The structured approach ensures that productivity is maximized while maintaining health, balance, and consistent learning.
+
+This framework can be expanded or customized further for other students or professionals to enhance efficiency and well-being in their daily routines.
 
 
 
 # Result: 
-The lab exercise resulted in the creation of a prototype concept for a personal assistant powered by large language models. Students were able to:
- Understand how to tailor LLM prompts to real-life applications.
- Foster creativity by designing features suited to their personal or academic lives.
- Learn prompt engineering techniques for optimal interaction with AI tools.
- Experience the versatility and utility of generative AI in solving everyday problems.
+The Daily Task Manager enables efficient task management and progress tracking, ensuring tasks are completed in a structured and timely manner.
+
+The Wellness Companion helps maintain physical and mental well-being, preventing burnout during long study or project sessions.
+
+The General Query Responder supports instant clarification of academic concepts and access to current information, making study and project work more effective.
+
+Overall, the combination of these modules leads to a holistic productivity and wellness system, promoting discipline, focus, and balanced daily routines.
